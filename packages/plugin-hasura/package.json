@@ -1,0 +1,26 @@
+{
+  "name": "@sextant-tools/plugin-hasura",
+  "version": "0.1.0",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/mattpocock/sextant"
+  },
+  "homepage": "https://github.com/mattpocock/sextant",
+  "author": {
+    "name": "Matt Pocock",
+    "email": "mpocock@me.com"
+  },
+  "main": "lib/index.js",
+  "dependencies": {
+    "@graphql-codegen/typescript": "^1.17.11",
+    "@sextant-tools/core": "0.1.0",
+    "fs-extra": "^9.0.1",
+    "graphql": "^15.4.0",
+    "handlebars": "^4.7.6",
+    "lodash.camelcase": "^4.3.0",
+    "lodash.upperfirst": "^4.3.1"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^9.0.3"
+  }
+}
